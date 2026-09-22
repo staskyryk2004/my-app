@@ -1,43 +1,58 @@
-.main-title{
-    font-size: 20px;
-    color: #1f2937;
-    margin-bottom: 20px;
+body{
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: yellow;
 }
 
-.form-box{
-    border: 1px solid #d1d5db;
+.box{
+    border: 1px solid #ccc;
     border-radius: 6px;
-    padding: 16px 20px;
+    padding: 15px;
+    margin-bottom:20px;
     background-color: #80b3ff;
-}
-.box-title{
-    font-size: 15px;
-    font-weight: bold;
-    color:#166534;
-    padding: 0 6px;
+    width: 200%;
+    font-size: 20px;
 }
 
-.checkbox-row{
+legend{
+    font-weight: bold;
+    color: #2e7d32;
+    padding: 0 5px;
+}
+
+.semester-row{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 20px;
     align-items: center;
 }
-.checkbox-label{
+
+.semester-row label{
     display: inline-flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 20px;
+    white-space: nowrap;
 }
-.file-section{
+
+.file-box{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.file-upload{
+
+.checkbox-line{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.file-line{
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 14px;
+    
 }
