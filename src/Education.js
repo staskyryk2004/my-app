@@ -1,5 +1,5 @@
 import React from 'react';
-class Money extends React.Component {
+class Education extends React.Component {
     render(){
         return(
         <>
@@ -31,4 +31,4 @@ class Money extends React.Component {
         );
     }
 }
-export default Money;
+export default Education;

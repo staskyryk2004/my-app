@@ -9,10 +9,10 @@ import './money.css';
 //import Program from './Program.js';
 //import Student from './Student.js';
 //import Form from './Form.js';
-import Money from './Money.js';
+import Education from './Education.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Money />
+    <Education />
   </React.StrictMode>
 );
