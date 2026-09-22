@@ -1,0 +1,43 @@
+.main-title{
+    font-size: 20px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.form-box{
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 16px 20px;
+    background-color: #80b3ff;
+}
+.box-title{
+    font-size: 15px;
+    font-weight: bold;
+    color:#166534;
+    padding: 0 6px;
+}
+
+.checkbox-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+.checkbox-label{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.file-section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.file-upload{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
