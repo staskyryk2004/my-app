@@ -5,14 +5,17 @@ import './main.css';
 import './head.css';
 import './form.css';
 import './education.css';
+import './marvel.css';
 //import File from './File.js';
 //import Program from './Program.js';
 //import Student from './Student.js';
 //import Form from './Form.js';
-import Education from './Education.js';
+//import Marvel from './Marvel.js';
+import DC from './DC.js';
+//import Education from './Education.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Education />
+    <DC super="Super-Man" wonder="Wonder-Woman" batman="Batman" />
   </React.StrictMode>
 );
