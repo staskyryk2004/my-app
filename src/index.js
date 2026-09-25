@@ -15,10 +15,11 @@ import './message.css';
 //import DC from './DC.js';
 //import Education from './Education.js';
 //import Laptop from './Laptop.js';
-import Message from './Message.js';
+//import Message from './Message.js';
+import Counter from './Counter.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Message />
+    <Counter />
   </React.StrictMode>
 );
