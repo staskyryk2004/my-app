@@ -7,6 +7,7 @@ import './main.css';
 //import './education.css';
 //import './marvel.css';
 import './message.css';
+import './keyboard.css';
 //import File from './File.js';
 //import Program from './Program.js';
 //import Student from './Student.js';
@@ -16,10 +17,11 @@ import './message.css';
 //import Education from './Education.js';
 //import Laptop from './Laptop.js';
 //import Message from './Message.js';
-import Counter from './Counter.js';
+//import Counter from './Counter.js';
+import Keyboard from './Keyboard.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Keyboard />
   </React.StrictMode>
 );
